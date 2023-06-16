@@ -61,7 +61,7 @@ document
   .addEventListener('click', function (event) {
     event.preventDefault();
 
-    // Matching strategy
+    //Matching strategy
     if (event.target.classList.contains('nav__link')) {
       const id = event.target.getAttribute('href');
       document.querySelector(id).scrollIntoView({ behavior: 'smooth' });
